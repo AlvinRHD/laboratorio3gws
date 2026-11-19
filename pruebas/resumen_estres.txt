@@ -1,0 +1,22 @@
+==================================
+pruebas/estres_cache.txt
+==================================
+Concurrency Level:      100
+Time taken for tests:   0.298 seconds
+Complete requests:      1000
+Failed requests:        0
+Requests per second:    3354.06 [#/sec] (mean)
+Time per request:       29.815 [ms] (mean)
+Time per request:       0.298 [ms] (mean, across all concurrent requests)
+
+==================================
+pruebas/estres_sin_cache.txt
+==================================
+Concurrency Level:      100
+Time taken for tests:   1.742 seconds
+Complete requests:      1000
+Failed requests:        0
+Requests per second:    574.19 [#/sec] (mean)
+Time per request:       174.159 [ms] (mean)
+Time per request:       1.742 [ms] (mean, across all concurrent requests)
+

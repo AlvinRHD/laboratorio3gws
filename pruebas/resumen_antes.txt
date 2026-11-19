@@ -1,0 +1,2 @@
+Latencia promedio: 504.46 ms
+Errores: 0 de 10 (0.0%)

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedRunners - Monitoreo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #202b3c;
+            margin: 30px;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 950px;
+            margin: auto;
+        }
+
+        .tarjetas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .tarjeta {
+            flex: 1;
+            min-width: 170px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #e1e5ec;
+        }
+
+        .numero {
+            font-size: 26px;
+            font-weight: bold;
+            color: #2458b5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background: #1d304a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>SpeedRunners Inc.</h1>
+        <p>Dashboard de monitoreo de servidores</p>
+        <p>Actualizado: 19/11/2026 00:12:01</p>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Latencia promedio</h3>
+                <div class="numero">357.60 ms</div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Cache HIT</h3>
+                <div class="numero">0.0%</div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Solicitudes</h3>
+                <div class="numero">10</div>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Conexiones Nginx</h3>
+                <div class="numero">2</div>
+            </div>
+        </div>
+
+        <h2>Consumo de recursos</h2>
+
+        <table>
+            <tr>
+                <th>Contenedor</th>
+                <th>CPU</th>
+                <th>Memoria</th>
+            </tr>
+            
+        <tr>
+            <td>speedrunners-lab-backend1-1</td>
+            <td>0.02%</td>
+            <td>12.2MiB / 7.433GiB</td>
+        </tr>
+        <tr>
+            <td>speedrunners-lab-backend2-1</td>
+            <td>0.02%</td>
+            <td>12.22MiB / 7.433GiB</td>
+        </tr>
+        <tr>
+            <td>speedrunners-lab-backend3-1</td>
+            <td>0.03%</td>
+            <td>12.28MiB / 7.433GiB</td>
+        </tr>
+        <tr>
+            <td>speedrunners-lab-backend4-1</td>
+            <td>0.02%</td>
+            <td>12.01MiB / 7.433GiB</td>
+        </tr>
+        <tr>
+            <td>speedrunners-lab-cadvisor-1</td>
+            <td>1.49%</td>
+            <td>51.46MiB / 7.433GiB</td>
+        </tr>
+        <tr>
+            <td>speedrunners-lab-nginx-1</td>
+            <td>0.00%</td>
+            <td>5.629MiB / 7.433GiB</td>
+        </tr>
+        </table>
+
+        <p>Actualización automática cada 5 segundos</p>
+    </div>
+</body>
+</html>
