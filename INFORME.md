@@ -5,6 +5,8 @@
 **Entorno de trabajo:** Ubuntu (WSL en Windows) y Docker Desktop  
 **Tecnologías utilizadas:** Docker Compose, Nginx, Python, cAdvisor, Bash y Apache Benchmark
 
+[![Laboratorio 3 de GWS](https://youtube.com)](https://youtu.be/kCJOHS93zYw)
+
 ## Preparación del laboratorio
 
 Primero verificamos que Docker y Docker Compose estuvieran instalados y funcionando. Como no había contenedores ejecutándose al inicio, pudimos preparar el proyecto sin detener otros servicios. Después creamos la carpeta principal `speedrunners-lab` y, dentro de ella, las carpetas `backends`, `nginx`, `monitoreo`, `pruebas` y `evidencias`.
